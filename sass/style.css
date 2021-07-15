@@ -142,16 +142,24 @@ h1, h2, h3, h4, h5, h6, p, span, b, a, button, li {
   background-color: #DD6A00;
   border: none;
   border-radius: 8px;
+  margin-bottom: 71px;
 }
 
 .header-hero__avatar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   max-width: 420px;
   height: 400px;
 }
 
-.header-hero__imgwrap {
-  width: 100%;
-  background-color: grey;
+.header-hero__img {
+  width: 420px;
+  height: 420px;
+  border-radius: 50%;
 }
 
 html,
@@ -593,5 +601,71 @@ textarea {
   background: #ccc;
   color: #000;
   padding: 0.2em 0;
+}
+
+@media (max-width: 1200px) {
+  .container {
+    width: 1024px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .container {
+    width: 768px;
+  }
+  .header-menu {
+    height: 88px;
+    margin-bottom: 46px;
+  }
+  .header__logo {
+    font-size: 30px;
+    line-height: 35px;
+  }
+  .header-nav {
+    min-width: 480px;
+  }
+  .header-nav__link {
+    font-size: 14px;
+    line-height: 16px;
+  }
+  .header-hero__info {
+    max-width: 364px;
+  }
+  .header-hero__name {
+    font-size: 40px;
+    line-height: 47px;
+  }
+  .header-hero__subname {
+    font-size: 36px;
+    line-height: 42px;
+    margin-bottom: 37px;
+  }
+  .header-hero__subscribe {
+    font-size: 24px;
+    line-height: 28px;
+    margin-bottom: 34px;
+  }
+  .header-hero__button {
+    width: 266px;
+    height: 55px;
+    font-size: 20px;
+    line-height: 23px;
+    margin-bottom: 30px;
+  }
+  .header-hero__avatar {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    max-width: 345px;
+    height: 345px;
+  }
+  .header-hero__img {
+    width: 345px;
+    height: 345px;
+    border-radius: 50%;
+  }
 }
 /*# sourceMappingURL=style.css.map */
