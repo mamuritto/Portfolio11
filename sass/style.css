@@ -196,6 +196,107 @@ h1, h2, h3, h4, h5, h6, p, span, b, a, button, li {
   color: #f3f3f3;
 }
 
+.container {
+  width: 1110px;
+  margin: 0 auto;
+}
+
+.education {
+  margin-top: 100px;
+}
+
+.education__title {
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 42px;
+  color: #DD6A00;
+  text-align: center;
+  margin-bottom: 70px;
+}
+
+.education-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.education-blocks {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 70px;
+}
+
+.education-date-block {
+  width: 310px;
+}
+
+.education__date {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 310px;
+  height: 57px;
+  background-color: #DD6A00;
+  font-size: 36px;
+  line-height: 42px;
+  color: #1a1728;
+  border-radius: 8px;
+}
+
+.education-info-block {
+  width: 583px;
+}
+
+.education-info__period {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 583px;
+  height: 57px;
+  font-size: 32px;
+  line-height: 37px;
+  background-color: #f2f2f2;
+  color: #000;
+  margin-bottom: 9px;
+  border-radius: 8px;
+}
+
+.education-info__subscribe {
+  width: 100%;
+  background-color: #f2f2f2;
+  color: #000;
+  padding: 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 8px;
+}
+
+.education-info__subscribe-p {
+  font-size: 24px;
+  line-height: 28px;
+}
+
 html,
 body,
 div,
