@@ -808,6 +808,43 @@ textarea {
     font-size: 24px;
     line-height: 35px;
   }
+  .education {
+    margin-top: 100px;
+  }
+  .education__title {
+    font-size: 34px;
+    line-height: 40px;
+    margin-bottom: 60px;
+  }
+  .education-blocks {
+    margin-bottom: 60px;
+  }
+  .education-date-block {
+    width: 238px;
+  }
+  .education__date {
+    width: 238px;
+    height: 57px;
+    font-size: 30px;
+    line-height: 35px;
+  }
+  .education-info-block {
+    width: 465px;
+  }
+  .education-info__period {
+    width: 465px;
+    height: 57px;
+    font-size: 30px;
+    line-height: 35px;
+    margin-bottom: 9px;
+  }
+  .education-info__subscribe {
+    padding: 10px;
+  }
+  .education-info__subscribe-p {
+    font-size: 20px;
+    line-height: 23px;
+  }
 }
 
 @media (max-width: 815px) {
@@ -862,6 +899,43 @@ textarea {
   .about__subtitle {
     font-size: 22px;
     line-height: 30px;
+  }
+  .education {
+    margin-top: 100px;
+  }
+  .education__title {
+    font-size: 32px;
+    line-height: 37px;
+    margin-bottom: 60px;
+  }
+  .education-blocks {
+    margin-bottom: 60px;
+  }
+  .education-date-block {
+    width: 217px;
+  }
+  .education__date {
+    width: 217px;
+    height: 57px;
+    font-size: 28px;
+    line-height: 33px;
+  }
+  .education-info-block {
+    width: 424px;
+  }
+  .education-info__period {
+    width: 424px;
+    height: 57px;
+    font-size: 28px;
+    line-height: 33px;
+    margin-bottom: 8px;
+  }
+  .education-info__subscribe {
+    padding: 10px;
+  }
+  .education-info__subscribe-p {
+    font-size: 20px;
+    line-height: 23px;
   }
 }
 
@@ -927,6 +1001,43 @@ textarea {
     font-size: 20px;
     line-height: 30px;
   }
+  .education {
+    margin-top: 100px;
+  }
+  .education__title {
+    font-size: 30px;
+    line-height: 35px;
+    margin-bottom: 30px;
+  }
+  .education-blocks {
+    margin-bottom: 30px;
+  }
+  .education-date-block {
+    width: 195px;
+  }
+  .education__date {
+    width: 195px;
+    height: 57px;
+    font-size: 26px;
+    line-height: 30px;
+  }
+  .education-info-block {
+    width: 381px;
+  }
+  .education-info__period {
+    width: 381px;
+    height: 57px;
+    font-size: 26px;
+    line-height: 30px;
+    margin-bottom: 7px;
+  }
+  .education-info__subscribe {
+    padding: 10px;
+  }
+  .education-info__subscribe-p {
+    font-size: 18px;
+    line-height: 21px;
+  }
 }
 
 @media (max-width: 660px) {
@@ -990,6 +1101,44 @@ textarea {
   .about__subtitle {
     font-size: 19px;
     line-height: 26px;
+  }
+  .education {
+    margin-top: 90px;
+  }
+  .education__title {
+    font-size: 29px;
+    line-height: 34px;
+    margin-bottom: 40px;
+  }
+  .education-blocks {
+    margin-bottom: 40px;
+  }
+  .education-date-block {
+    width: 182px;
+  }
+  .education__date {
+    width: 182px;
+    height: 52px;
+    background-color: #DD6A00;
+    font-size: 25px;
+    line-height: 29px;
+  }
+  .education-info-block {
+    width: 357px;
+  }
+  .education-info__period {
+    width: 357px;
+    height: 52px;
+    font-size: 25px;
+    line-height: 29px;
+    margin-bottom: 7px;
+  }
+  .education-info__subscribe {
+    padding: 10px;
+  }
+  .education-info__subscribe-p {
+    font-size: 17px;
+    line-height: 20px;
   }
 }
 
@@ -1096,6 +1245,73 @@ textarea {
     font-size: 22px;
     line-height: 30px;
   }
+  .education {
+    margin-top: 120px;
+  }
+  .education__title {
+    font-size: 32px;
+    line-height: 37px;
+    margin-bottom: 70px;
+  }
+  .education-wrap {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .education-blocks {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-bottom: 70px;
+  }
+  .education-date-block {
+    width: 200px;
+    margin-bottom: 10px;
+  }
+  .education__date {
+    width: 200px;
+    height: 50px;
+    font-size: 26px;
+    line-height: 30px;
+  }
+  .education-info-block {
+    width: 380px;
+  }
+  .education-info__period {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 380px;
+    height: 50px;
+    font-size: 26px;
+    line-height: 30px;
+    margin-bottom: 10px;
+  }
+  .education-info__subscribe {
+    padding: 10px;
+  }
+  .education-info__subscribe-p {
+    font-size: 18px;
+    line-height: 21px;
+  }
 }
 
 @media (max-width: 560px) {
@@ -1164,6 +1380,14 @@ textarea {
   .about__subtitle {
     font-size: 22px;
     line-height: 30px;
+  }
+  .education {
+    margin-top: 100px;
+  }
+  .education__title {
+    font-size: 32px;
+    line-height: 37px;
+    margin-bottom: 40px;
   }
 }
 
@@ -1282,6 +1506,44 @@ textarea {
     font-size: 20px;
     line-height: 26px;
   }
+  .education {
+    margin-top: 100px;
+  }
+  .education__title {
+    font-size: 30px;
+    line-height: 35px;
+    margin-bottom: 50px;
+  }
+  .education-blocks {
+    margin-bottom: 50px;
+  }
+  .education-date-block {
+    width: 204px;
+    margin-bottom: 9px;
+  }
+  .education__date {
+    width: 204px;
+    height: 52px;
+    font-size: 26px;
+    line-height: 30px;
+  }
+  .education-info-block {
+    width: 356px;
+  }
+  .education-info__period {
+    width: 356px;
+    height: 52px;
+    font-size: 26px;
+    line-height: 32px;
+    margin-bottom: 9px;
+  }
+  .education-info__subscribe {
+    padding: 10px;
+  }
+  .education-info__subscribe-p {
+    font-size: 18px;
+    line-height: 21px;
+  }
 }
 
 @media (max-width: 375px) {
@@ -1332,6 +1594,43 @@ textarea {
   .header-hero__img {
     width: 245px;
     height: 245px;
+  }
+  .education {
+    margin-top: 100px;
+  }
+  .education__title {
+    font-size: 30px;
+    line-height: 35px;
+    margin-bottom: 50px;
+  }
+  .education-blocks {
+    margin-bottom: 50px;
+  }
+  .education-date-block {
+    width: 184px;
+  }
+  .education__date {
+    width: 184px;
+    height: 52px;
+    font-size: 26px;
+    line-height: 30px;
+  }
+  .education-info-block {
+    width: 323px;
+  }
+  .education-info__period {
+    width: 323px;
+    height: 52px;
+    font-size: 26px;
+    line-height: 30px;
+    margin-bottom: 9px;
+  }
+  .education-info__subscribe {
+    padding: 10px;
+  }
+  .education-info__subscribe-p {
+    font-size: 18px;
+    line-height: 21px;
   }
 }
 
@@ -1392,6 +1691,43 @@ textarea {
   .about__subtitle {
     font-size: 18px;
     line-height: 25px;
+  }
+  .education {
+    margin-top: 100px;
+  }
+  .education__title {
+    font-size: 28px;
+    line-height: 33px;
+    margin-bottom: 30px;
+  }
+  .education-blocks {
+    margin-bottom: 30px;
+  }
+  .education-date-block {
+    width: 170px;
+  }
+  .education__date {
+    width: 170px;
+    height: 50px;
+    font-size: 25px;
+    line-height: 29px;
+  }
+  .education-info-block {
+    width: 300px;
+  }
+  .education-info__period {
+    width: 300px;
+    height: 50px;
+    font-size: 25px;
+    line-height: 29px;
+    margin-bottom: 9px;
+  }
+  .education-info__subscribe {
+    padding: 10px;
+  }
+  .education-info__subscribe-p {
+    font-size: 17px;
+    line-height: 20px;
   }
 }
 /*# sourceMappingURL=style.css.map */
