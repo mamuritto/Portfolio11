@@ -32,6 +32,7 @@
         flex-direction: column
         width: 472px
         &__indicate
+            position: relative
             display: flex
             justify-content: space-between
             align-items: center
@@ -47,11 +48,103 @@
         line-height: 40px
         color: $orange
     &__line
+        position: relative
         width: 250px
-        height: 4px
+        height: 20px
         background-color: grey
+        border-radius: 10px
+    &__progress
+        &__html
+            position: absolute
+            top: 0
+            left: 0
+            width: 100%
+            height: 100%
+            background-color: $orange
+            border-radius: 10px
+            animation: animate 3s ease-in-out forwards
+        &__css
+            position: absolute
+            top: 0
+            left: 0
+            width: 96%
+            height: 100%
+            background-color: $orange
+            border-radius: 10px
+            animation: animateCss 3s ease-in-out forwards
+        &__js
+            position: absolute
+            top: 0
+            left: 0
+            width: 60%
+            height: 100%
+            background-color: $orange
+            border-radius: 10px
+            animation: animateJs 3s ease-in-out forwards
+        &__figma
+            position: absolute
+            top: 0
+            left: 0
+            width: 80%
+            height: 100%
+            background-color: $orange
+            border-radius: 10px
+            animation: animateFig 3s ease-in-out forwards
+        &__github
+            position: absolute
+            top: 0
+            left: 0
+            width: 35%
+            height: 100%
+            background-color: $orange
+            border-radius: 10px
+            animation: animateGit 3s ease-in-out forwards
+        &__react
+            position: absolute
+            top: 0
+            left: 0
+            width: 10%
+            height: 100%
+            background-color: $orange
+            border-radius: 10px
+            animation: animateRea 3s ease-in-out forwards
     &__percent
         font-weight: normal
         font-size: 34px
         line-height: 40px
         color: $orange
+@keyframes animate
+    0%
+        width: 0
+    100%
+        width: 100%
+
+@keyframes animateCss
+    0%
+        width: 0
+    100%
+        width: 96%
+
+@keyframes animateJs
+    0%
+        width: 0
+    100%
+        width: 60%
+
+@keyframes animateFig
+    0%
+        width: 0
+    100%
+        width: 80%
+
+@keyframes animateGit
+    0%
+        width: 0
+    100%
+        width: 35%
+
+@keyframes animateRea
+    0%
+        width: 0
+    100%
+        width: 10%

@@ -359,6 +359,7 @@ h1, h2, h3, h4, h5, h6, p, span, b, a, button, li {
 }
 
 .skills__block__indicate {
+  position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -386,9 +387,83 @@ h1, h2, h3, h4, h5, h6, p, span, b, a, button, li {
 }
 
 .skills__line {
+  position: relative;
   width: 250px;
-  height: 4px;
+  height: 20px;
   background-color: grey;
+  border-radius: 10px;
+}
+
+.skills__progress__html {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #DD6A00;
+  border-radius: 10px;
+  -webkit-animation: animate 3s ease-in-out forwards;
+          animation: animate 3s ease-in-out forwards;
+}
+
+.skills__progress__css {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 96%;
+  height: 100%;
+  background-color: #DD6A00;
+  border-radius: 10px;
+  -webkit-animation: animateCss 3s ease-in-out forwards;
+          animation: animateCss 3s ease-in-out forwards;
+}
+
+.skills__progress__js {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 60%;
+  height: 100%;
+  background-color: #DD6A00;
+  border-radius: 10px;
+  -webkit-animation: animateJs 3s ease-in-out forwards;
+          animation: animateJs 3s ease-in-out forwards;
+}
+
+.skills__progress__figma {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 80%;
+  height: 100%;
+  background-color: #DD6A00;
+  border-radius: 10px;
+  -webkit-animation: animateFig 3s ease-in-out forwards;
+          animation: animateFig 3s ease-in-out forwards;
+}
+
+.skills__progress__github {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 35%;
+  height: 100%;
+  background-color: #DD6A00;
+  border-radius: 10px;
+  -webkit-animation: animateGit 3s ease-in-out forwards;
+          animation: animateGit 3s ease-in-out forwards;
+}
+
+.skills__progress__react {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 10%;
+  height: 100%;
+  background-color: #DD6A00;
+  border-radius: 10px;
+  -webkit-animation: animateRea 3s ease-in-out forwards;
+          animation: animateRea 3s ease-in-out forwards;
 }
 
 .skills__percent {
@@ -396,6 +471,114 @@ h1, h2, h3, h4, h5, h6, p, span, b, a, button, li {
   font-size: 34px;
   line-height: 40px;
   color: #DD6A00;
+}
+
+@-webkit-keyframes animate {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+@keyframes animate {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+@-webkit-keyframes animateCss {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 96%;
+  }
+}
+
+@keyframes animateCss {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 96%;
+  }
+}
+
+@-webkit-keyframes animateJs {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 60%;
+  }
+}
+
+@keyframes animateJs {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 60%;
+  }
+}
+
+@-webkit-keyframes animateFig {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 80%;
+  }
+}
+
+@keyframes animateFig {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 80%;
+  }
+}
+
+@-webkit-keyframes animateGit {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 35%;
+  }
+}
+
+@keyframes animateGit {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 35%;
+  }
+}
+
+@-webkit-keyframes animateRea {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 10%;
+  }
+}
+
+@keyframes animateRea {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 10%;
+  }
 }
 
 html,
@@ -842,6 +1025,7 @@ textarea {
 @media (max-width: 1440px) {
   .container {
     width: 1110px;
+    margin: 0 auto;
   }
 }
 
