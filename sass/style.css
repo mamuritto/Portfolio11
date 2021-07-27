@@ -1130,6 +1130,56 @@ textarea {
     font-size: 20px;
     line-height: 23px;
   }
+  .skills {
+    margin-top: 100px;
+  }
+  .skills__title {
+    font-size: 34px;
+    line-height: 40px;
+    margin-bottom: 16px;
+  }
+  .skills__subtitle {
+    font-size: 24px;
+    line-height: 28px;
+    margin-bottom: 80px;
+  }
+  .skills__double {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+    margin-bottom: 0;
+  }
+  .skills__block {
+    width: 100%;
+    margin-bottom: 80px;
+  }
+  .skills__block__indicate {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .skills__block__subtitle {
+    width: 630px;
+    font-size: 26px;
+    line-height: 30px;
+    margin: 0 auto;
+  }
+  .skills__name {
+    font-size: 32px;
+    line-height: 37px;
+  }
+  .skills__line {
+    position: relative;
+    width: 430px;
+    height: 20px;
+    background-color: grey;
+    border-radius: 10px;
+  }
+  .skills__percent {
+    font-size: 32px;
+    line-height: 37px;
+  }
 }
 
 @media (max-width: 815px) {
@@ -1221,6 +1271,44 @@ textarea {
   .education-info__subscribe-p {
     font-size: 20px;
     line-height: 23px;
+  }
+  .skills {
+    margin-top: 100px;
+  }
+  .skills__title {
+    font-size: 32px;
+    line-height: 37px;
+    margin-bottom: 18px;
+  }
+  .skills__subtitle {
+    font-size: 22px;
+    line-height: 26px;
+    margin-bottom: 80px;
+  }
+  .skills__double {
+    margin-bottom: 0;
+  }
+  .skills__block {
+    width: 700px;
+  }
+  .skills__block__indicate {
+    margin-bottom: 30px;
+  }
+  .skills__block__subtitle {
+    width: 600px;
+    font-size: 24px;
+    line-height: 28px;
+  }
+  .skills__name {
+    font-size: 30px;
+    line-height: 35px;
+  }
+  .skills__line {
+    width: 450px;
+  }
+  .skills__percent {
+    font-size: 30px;
+    line-height: 35px;
   }
 }
 
@@ -1323,6 +1411,46 @@ textarea {
     font-size: 18px;
     line-height: 21px;
   }
+  .skills {
+    margin-top: 100px;
+  }
+  .skills__title {
+    font-size: 30px;
+    line-height: 35px;
+    margin-bottom: 20px;
+  }
+  .skills__subtitle {
+    font-size: 20px;
+    line-height: 23px;
+    margin-bottom: 90px;
+  }
+  .skills__double {
+    margin-bottom: 0;
+  }
+  .skills__block {
+    width: 630px;
+  }
+  .skills__block__indicate {
+    margin-bottom: 30px;
+  }
+  .skills__block__subtitle {
+    width: 550px;
+    font-size: 22px;
+    line-height: 26px;
+  }
+  .skills__name {
+    font-size: 28px;
+    line-height: 33px;
+  }
+  .skills__line {
+    width: 350px;
+    height: 18px;
+  }
+  .skills__percent {
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 33px;
+  }
 }
 
 @media (max-width: 660px) {
@@ -1424,6 +1552,45 @@ textarea {
   .education-info__subscribe-p {
     font-size: 17px;
     line-height: 20px;
+  }
+  .skills {
+    margin-top: 90px;
+  }
+  .skills__title {
+    font-size: 29px;
+    line-height: 34px;
+    margin-bottom: 20px;
+  }
+  .skills__subtitle {
+    font-size: 19px;
+    line-height: 22px;
+    margin-bottom: 80px;
+  }
+  .skills__double {
+    margin-bottom: 0;
+  }
+  .skills__block {
+    width: 590px;
+  }
+  .skills__block__indicate {
+    margin-bottom: 30px;
+  }
+  .skills__block__subtitle {
+    width: 510px;
+    font-size: 21px;
+    line-height: 24px;
+  }
+  .skills__name {
+    font-size: 27px;
+    line-height: 32px;
+  }
+  .skills__line {
+    width: 330px;
+    height: 17px;
+  }
+  .skills__percent {
+    font-size: 27px;
+    line-height: 32px;
   }
 }
 
@@ -1597,6 +1764,45 @@ textarea {
     font-size: 18px;
     line-height: 21px;
   }
+  .skills {
+    margin-top: 100px;
+  }
+  .skills__title {
+    font-size: 34px;
+    line-height: 40px;
+    margin-bottom: 16px;
+  }
+  .skills__subtitle {
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 75px;
+  }
+  .skills__double {
+    margin-bottom: 0;
+  }
+  .skills__block {
+    width: 540px;
+  }
+  .skills__block__indicate {
+    margin-bottom: 23px;
+  }
+  .skills__block__subtitle {
+    width: 470px;
+    font-size: 22px;
+    line-height: 26px;
+  }
+  .skills__name {
+    font-size: 26px;
+    line-height: 30px;
+  }
+  .skills__line {
+    width: 250px;
+    height: 17px;
+  }
+  .skills__percent {
+    font-size: 26px;
+    line-height: 30px;
+  }
 }
 
 @media (max-width: 560px) {
@@ -1674,6 +1880,43 @@ textarea {
     line-height: 37px;
     margin-bottom: 40px;
   }
+  .skills {
+    margin-top: 90px;
+  }
+  .skills__title {
+    font-size: 34px;
+    line-height: 40px;
+  }
+  .skills__subtitle {
+    font-size: 24px;
+    line-height: 28px;
+    margin-bottom: 70px;
+  }
+  .skills__double {
+    margin-bottom: 0;
+  }
+  .skills__block {
+    width: 500px;
+  }
+  .skills__block__indicate {
+    margin-bottom: 25px;
+  }
+  .skills__block__subtitle {
+    width: 440px;
+    font-size: 22px;
+    line-height: 26px;
+  }
+  .skills__name {
+    font-size: 26px;
+    line-height: 30px;
+  }
+  .skills__line {
+    height: 15px;
+  }
+  .skills__percent {
+    font-size: 26px;
+    line-height: 30px;
+  }
 }
 
 @media (max-width: 520px) {
@@ -1729,6 +1972,45 @@ textarea {
     width: 280px;
     height: 280px;
     border-radius: 50%;
+  }
+  .skills {
+    margin-top: 80px;
+  }
+  .skills__title {
+    font-size: 34px;
+    line-height: 40px;
+  }
+  .skills__subtitle {
+    font-size: 24px;
+    line-height: 28px;
+    margin-bottom: 70px;
+  }
+  .skills__double {
+    margin-bottom: 0;
+  }
+  .skills__block {
+    width: 440px;
+    margin-bottom: 80px;
+  }
+  .skills__block__indicate {
+    margin-bottom: 25px;
+  }
+  .skills__block__subtitle {
+    width: 390px;
+    font-size: 22px;
+    line-height: 26px;
+  }
+  .skills__name {
+    font-size: 26px;
+    line-height: 30px;
+  }
+  .skills__line {
+    width: 220px;
+    height: 14px;
+  }
+  .skills__percent {
+    font-size: 26px;
+    line-height: 30px;
   }
 }
 
@@ -1829,6 +2111,46 @@ textarea {
     font-size: 18px;
     line-height: 21px;
   }
+  .skills {
+    margin-top: 50px;
+  }
+  .skills__title {
+    font-size: 30px;
+    line-height: 35px;
+    margin-bottom: 18px;
+  }
+  .skills__subtitle {
+    font-size: 20px;
+    line-height: 23px;
+    margin-bottom: 60px;
+  }
+  .skills__double {
+    margin-bottom: 0;
+  }
+  .skills__block {
+    width: 360px;
+    margin-bottom: 60px;
+  }
+  .skills__block__indicate {
+    margin-bottom: 25px;
+  }
+  .skills__block__subtitle {
+    width: 350px;
+    font-size: 22px;
+    line-height: 26px;
+  }
+  .skills__name {
+    font-size: 26px;
+    line-height: 30px;
+  }
+  .skills__line {
+    width: 150px;
+    height: 14px;
+  }
+  .skills__percent {
+    font-size: 26px;
+    line-height: 30px;
+  }
 }
 
 @media (max-width: 375px) {
@@ -1916,6 +2238,46 @@ textarea {
   .education-info__subscribe-p {
     font-size: 18px;
     line-height: 21px;
+  }
+  .skills {
+    margin-top: 50px;
+  }
+  .skills__title {
+    font-size: 30px;
+    line-height: 35px;
+    margin-bottom: 20px;
+  }
+  .skills__subtitle {
+    font-size: 20px;
+    line-height: 23px;
+    margin-bottom: 60px;
+  }
+  .skills__double {
+    margin-bottom: 0;
+  }
+  .skills__block {
+    width: 325px;
+    margin-bottom: 50px;
+  }
+  .skills__block__indicate {
+    margin-bottom: 25px;
+  }
+  .skills__block__subtitle {
+    width: 300px;
+    font-size: 22px;
+    line-height: 26px;
+  }
+  .skills__name {
+    font-size: 26px;
+    line-height: 30px;
+  }
+  .skills__line {
+    width: 150px;
+    height: 14px;
+  }
+  .skills__percent {
+    font-size: 26px;
+    line-height: 30px;
   }
 }
 
@@ -2013,6 +2375,46 @@ textarea {
   .education-info__subscribe-p {
     font-size: 17px;
     line-height: 20px;
+  }
+  .skills {
+    margin-top: 50px;
+  }
+  .skills__title {
+    font-size: 28px;
+    line-height: 33px;
+    margin-bottom: 20px;
+  }
+  .skills__subtitle {
+    font-size: 18px;
+    line-height: 21px;
+    margin-bottom: 60px;
+  }
+  .skills__double {
+    margin-bottom: 0;
+  }
+  .skills__block {
+    width: 300px;
+  }
+  .skills__block__indicate {
+    margin-bottom: 24px;
+  }
+  .skills__block__subtitle {
+    width: 290px;
+    font-size: 20px;
+    line-height: 23px;
+  }
+  .skills__name {
+    font-size: 25px;
+    line-height: 29px;
+  }
+  .skills__line {
+    width: 130px;
+    height: 13px;
+  }
+  .skills__percent {
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 29px;
   }
 }
 /*# sourceMappingURL=style.css.map */
