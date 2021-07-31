@@ -15,27 +15,27 @@
 </head>
 
 <body>
-    <header class="header">
+    <header class="header" id="header">
         <div class="container">
             <div class="header-wrap">
                 <div class="header-menu">
-                    <span class="header__logo">Mamuri<span class="header__logo__11">11</span>o</span>
+                    <a href="#header" class="header__logo">Mamuri<span class="header__logo__11">11</span>o</a>
                     <nav class="header-nav">
                         <ul class="header-nav__list">
                             <li class="header-nav__item">
-                                <a href="#!" class="header-nav__link">Главная</a>
+                                <a href="#header" class="header-nav__link">Главная</a>
                             </li>
                             <li class="header-nav__item">
-                                <a href="#!" class="header-nav__link">Обо мне</a>
+                                <a href="#about" class="header-nav__link">Обо мне</a>
                             </li>
                             <li class="header-nav__item">
-                                <a href="#!" class="header-nav__link">Навыки</a>
+                                <a href="#skills" class="header-nav__link">Навыки</a>
                             </li>
                             <li class="header-nav__item">
-                                <a href="#!" class="header-nav__link">Портфолио</a>
+                                <a href="#portfolio" class="header-nav__link">Портфолио</a>
                             </li>
                             <li class="header-nav__item">
-                                <a href="#!" class="header-nav__link">Контакты</a>
+                                <a href="#contact" class="header-nav__link">Контакты</a>
                             </li>
                         </ul>
                     </nav>
@@ -58,7 +58,7 @@
             </div>
         </div>
     </header>
-    <section class="about">
+    <section class="about" id="about">
         <div class="container">
             <div class="about-wrap">
                 <h2 class="about__title">Обо мне</h2>
@@ -66,7 +66,7 @@
             </div>
         </div>
     </section>
-    <section class="education">
+    <section class="education" id="education">
         <div class="container">
             <h2 class="education__title">Мое образование в программировании</h2>
             <div class="education-wrap">
@@ -137,7 +137,7 @@
             </div>
         </div>
     </section>
-    <section class="skills">
+    <section class="skills" id="skills">
         <div class="container">
             <h2 class="skills__title">НАВЫКИ</h2>
             <p class="skills__subtitle">Умею верстать сайты с дизайн макетов</p>
@@ -216,7 +216,7 @@
         </div>
     </section>
     <section class="personal"></section>
-    <section class="portfolio">
+    <section class="portfolio" id="portfolio">
         <div class="container">
             <h2 class="portfolio__title">
                 Портфолио
@@ -241,7 +241,31 @@
             </div>
         </div>
     </section>
-    <section class="contact"></section>
+    <section class="contact" id="contact">
+        <div class="container container-contact">
+            <div class="contact-wrap">
+                <h2 class="contact__title">Свяжитесь со мной</h2>
+                <h3 class="contact__subtitle">Итак, если у вас есть предложения, или остались вопросы</h3>
+                <form class="contact-form" action="#!">
+                    <div class="input-wrap">
+                        <div class="input-block">
+                            <input class="contact__input" type="text" placeholder="Ваше имя">
+                            <img class="contact__img" src="img/contact-person.svg" alt="user">
+                        </div>
+                        <div class="input-block">
+                            <input class="contact__input" type="text" placeholder="Ваши контакты">
+                            <img class="contact__img" src="img/contact-phone.svg" alt="phone">
+                        </div>
+                    </div>
+                    <div class="contact__message">
+                        <textarea class="contact__message__textarea" placeholder="Ваше сообщение" ></textarea>
+                        <img class="contact__img contact__img__top" src="img/phone-mes.svg" alt="message">
+                    </div>
+                    <button class="contact__button">Отправить</button>
+                </form>
+            </div>
+        </div>
+    </section>
     <footer class="footer"></footer>
 </body>
 
