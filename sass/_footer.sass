@@ -1,0 +1,38 @@
+.container
+    width: 1110px
+    margin: 0 auto
+.footer
+    padding: 100px 0
+    &-wrap
+        width: 480px
+        display: flex
+        justify-content: space-between
+        margin: 0 auto
+        &__img
+            width: 60px
+            height: 60px
+            background-color: $dark
+            display: flex
+            text-align: center
+            border-radius: 50%
+            transition: ease .5s
+            &__tg:hover
+                background-color: #0088cc
+            &__wa:hover
+                background-color: rgb(67, 216, 84)
+            &__fb:hover
+                background-color: #3b5998
+            &__insta:hover
+                background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%)
+            &__vk:hover
+                background-color: #597da3
+    &__img
+        width: 40px
+        height: 40px
+        align-self: center
+        margin: 0 auto
+        &__fb
+            width: 36px
+            height: 40px
+        &__tg
+            margin-right: 21%
