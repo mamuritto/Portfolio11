@@ -51,6 +51,10 @@ h1, h2, h3, h4, h5, h6, p, span, b, a, button, li {
   margin-bottom: 54px;
 }
 
+.header-menu__button {
+  display: none;
+}
+
 .header__logo {
   font-size: 36px;
   line-height: 42px;
@@ -2336,6 +2340,27 @@ textarea {
     height: 47px;
     margin-bottom: 35px;
   }
+  .header-menu__button {
+    width: 45px;
+    height: 21px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    background-color: #030011;
+    border: none;
+  }
+  .header-menu__button__line {
+    width: 45px;
+    height: 2px;
+    background-color: #f2f2f2;
+  }
   .header__logo {
     margin-left: 3%;
     font-size: 40px;
@@ -3323,6 +3348,27 @@ textarea {
     height: 85px;
     margin-top: 0;
     margin-bottom: 10px;
+  }
+  .header-menu__button {
+    width: 35px;
+    height: 16px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    background-color: #030011;
+    border: none;
+  }
+  .header-menu__button__line {
+    width: 35px;
+    height: 2px;
+    background-color: #f2f2f2;
   }
   .header__logo {
     font-size: 30px;
