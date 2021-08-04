@@ -66,11 +66,8 @@ h1, h2, h3, h4, h5, h6, p, span, b, a, button, li {
   color: #DD6A00;
 }
 
-.header-nav {
-  min-width: 615px;
-}
-
 .header-nav__list {
+  min-width: 615px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -191,7 +188,8 @@ h1, h2, h3, h4, h5, h6, p, span, b, a, button, li {
 }
 
 .about {
-  margin-top: 100px;
+  margin-top: 50px;
+  padding-top: 50px;
 }
 
 .about-wrap {
@@ -326,7 +324,8 @@ h1, h2, h3, h4, h5, h6, p, span, b, a, button, li {
 }
 
 .skills {
-  margin-top: 100px;
+  margin-top: 50px;
+  padding-top: 50px;
 }
 
 .skills__title {
@@ -610,7 +609,8 @@ h1, h2, h3, h4, h5, h6, p, span, b, a, button, li {
 }
 
 .portfolio {
-  margin-top: 100px;
+  padding-top: 50px;
+  margin-top: 20px;
 }
 
 .portfolio__title {
@@ -1402,7 +1402,7 @@ textarea {
     font-size: 30px;
     line-height: 35px;
   }
-  .header-nav {
+  .header-nav__list {
     min-width: 480px;
   }
   .header-nav__link {
@@ -1637,7 +1637,7 @@ textarea {
     height: 85px;
     margin-bottom: 50px;
   }
-  .header-nav {
+  .header-nav__list {
     min-width: 444px;
   }
   .header-hero__info {
@@ -1837,7 +1837,7 @@ textarea {
     font-size: 28px;
     line-height: 33px;
   }
-  .header-nav {
+  .header-nav__list {
     min-width: 396px;
   }
   .header-nav__link {
@@ -2114,7 +2114,7 @@ textarea {
     font-size: 27px;
     line-height: 32px;
   }
-  .header-nav {
+  .header-nav__list {
     min-width: 365px;
   }
   .header-nav__link {
@@ -2335,10 +2335,17 @@ textarea {
   .container {
     width: 540px;
   }
+  body {
+    padding-top: 110px;
+  }
+  body.lock {
+    overflow: hidden;
+  }
   .header-menu {
-    margin-top: 26px;
+    width: 100%;
     height: 47px;
-    margin-bottom: 35px;
+    background-color: #030011;
+    padding: 20px 0;
   }
   .header-menu__button {
     width: 45px;
@@ -2353,24 +2360,44 @@ textarea {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
-    background-color: #030011;
+    background-color: transparent;
     border: none;
+    margin-right: 3%;
   }
   .header-menu__button__line {
     width: 45px;
     height: 2px;
     background-color: #f2f2f2;
   }
+  .header-menu__mobile {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    z-index: 99;
+  }
   .header__logo {
     margin-left: 3%;
     font-size: 40px;
     line-height: 47px;
   }
-  .header-nav {
-    min-width: 50px;
+  .header-nav__list {
+    display: none;
+  }
+  .header-nav__list__mobile {
+    position: fixed;
+    display: block;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 80px;
+    background-color: #030011;
+  }
+  .header-nav__item {
+    margin-top: 40px;
   }
   .header-nav__link {
-    display: none;
+    font-size: 30px;
   }
   .header-hero {
     width: 100%;
@@ -2674,9 +2701,12 @@ textarea {
   .container {
     width: 500px;
   }
+  body {
+    padding-top: 110px;
+  }
   .header-menu {
     height: 47px;
-    margin-bottom: 35px;
+    margin-bottom: 0;
   }
   .header__logo {
     font-size: 39px;
@@ -3094,16 +3124,23 @@ textarea {
   .container {
     width: 360px;
   }
+  body {
+    padding-top: 100px;
+  }
   .header-menu {
     height: 35px;
-    margin-bottom: 35px;
+    padding: 15px 0;
+    margin-bottom: 0;
   }
   .header__logo {
     font-size: 30px;
     line-height: 35px;
   }
-  .header-nav {
-    min-width: 45px;
+  .header-nav__list__mobile {
+    top: 60px;
+  }
+  .header-nav__link {
+    font-size: 26px;
   }
   .header-hero__info {
     max-width: 350px;
@@ -3344,10 +3381,12 @@ textarea {
   .container {
     width: 325px;
   }
+  body {
+    padding-top: 90px;
+  }
   .header-menu {
-    height: 85px;
-    margin-top: 0;
-    margin-bottom: 10px;
+    height: 35px;
+    padding: 10px 0;
   }
   .header-menu__button {
     width: 35px;
@@ -3375,8 +3414,11 @@ textarea {
     line-height: 35px;
     margin-left: 2%;
   }
-  .header-nav {
-    min-width: 40px;
+  .header-nav__list__mobile {
+    top: 50px;
+  }
+  .header-nav__link {
+    font-size: 22px;
   }
   .header-hero__info {
     max-width: 322px;
@@ -3605,16 +3647,23 @@ textarea {
   .container {
     width: 300px;
   }
+  body {
+    padding-top: 80px;
+  }
   .header-menu {
-    height: 85px;
-    margin-bottom: 20px;
+    height: 35px;
+    padding: 8px 0;
+    margin-bottom: 0;
   }
   .header__logo {
     font-size: 28px;
     line-height: 33px;
   }
-  .header-nav {
+  .header-nav__list {
     min-width: 37px;
+  }
+  .header-nav__list__mobile {
+    top: 50px;
   }
   .header-hero__info {
     max-width: 300px;
